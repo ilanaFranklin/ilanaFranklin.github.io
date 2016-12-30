@@ -1,5 +1,6 @@
 body {
-    background-color: lightblue;
+    background-image: url("contemporary_china.png");
+    background-repeat: repeat;
     color: red;
     margin: 0px;
 }
@@ -24,24 +25,42 @@ body {
 
 #header a {
     float: right;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    color: black;
     padding: 30px;
     text-decoration: none;
     margin-top: -7px;
 }
 
+#header a:hover{
+    color: red;
+}
+
 #wonton {
     position: absolute;
-    top: -65px;
+    top: 0px;
     width: 1200px;
     height: 600px;
 }
 
 #title {
     width: 300px;
-    height: 600px;
+    height: 300px;
     opacity: 0.7;
     position: absolute;
     margin-left: 100px;
-    top: -65px;
+    top: -5px;
     background-color: white;
+    text-align: center;
+    font-family: 'Aladin', cursive;
+    padding-top: 350px;
+}
+
+#logo {
+    position: absolute;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 30px;
+
 }
