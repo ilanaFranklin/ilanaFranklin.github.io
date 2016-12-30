@@ -1,7 +1,7 @@
 body {
     background-image: url("contemporary_china.png");
     background-repeat: repeat;
-    color: red;
+    color: #9d312f;
     margin: 0px;
 }
 
@@ -15,26 +15,34 @@ body {
     box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
 }
 
-#header {
+.header {
     width: 1200px;;
     height: 65px;
-    background-color: white;
-    opacity: 0.7;
-    vertical-align: middle;
+    position: absolute;
 }
 
-#header a {
+#header-bg {
+    background-color: #5F9EA0;
+    opacity: 0.7;
+}
+
+.header a {
     float: right;
     font-family: 'Sintony', sans-serif;
+    height: 13px;
     font-weight: 700;
+    letter-spacing: 3px;
+    text-indent: 3px;
     color: black;
     padding: 30px;
     text-decoration: none;
-    margin-top: -7px;
+    margin-top: -8px;
 }
 
-#header a:hover{
-    color: red;
+.header a:hover{
+    color: #9d312f;
+    background-color: white;
+    opacity: 0.7;
 }
 
 #wonton {
@@ -44,23 +52,40 @@ body {
     height: 600px;
 }
 
-#title {
+.title {
     width: 300px;
-    height: 300px;
-    opacity: 0.7;
+    height: 230px;
     position: absolute;
     margin-left: 100px;
-    top: -5px;
-    background-color: white;
     text-align: center;
-    font-family: 'Aladin', cursive;
-    padding-top: 350px;
+    font-family: 'Bungee Shade', cursive;
+    padding-top: 270px;
+    padding-right: 0px;
 }
 
+#title-bg {
+    opacity: 0.7;
+    background-color: #9fc4c6;
+}
+
+.title h1 {
+    font-size: 70px;
+    line-height: 30%;
+    letter-spacing: 30px;
+    text-indent: 30px;
+}
+
+.title h2 {
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 8px;
+    text-indent: 8px;
+    font-size: 20px;
+    font-family: "Sintony", san-serif;
+}
 #logo {
     position: absolute;
     width: 200px;
     margin-left: 150px;
-    margin-top: 30px;
-
+    margin-top: 80px;
 }
