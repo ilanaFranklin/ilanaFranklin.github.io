@@ -7,7 +7,7 @@ body {
 
 #page {
     width: 1200px;
-    height: 1000px;
+    height: 1040px;
     margin: 0px auto;
     background-color: white;
     -moz-box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
@@ -37,7 +37,7 @@ body {
     color: black;
     padding: 30px;
     text-decoration: none;
-    margin-top: -8px;
+    margin-top: -16px;
 }
 
 .header a:hover{
@@ -118,14 +118,50 @@ body {
 
 .third h1 span {
     background-color: #5F9EA0;
-    height: 30px;
+    opacity: 0.7;
     padding-left: 20px;
     padding-right: 0px;
+}
+
+.third h2 {
+    font-family: "Sintony", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    line-height: 80%;
+    letter-spacing: 4px;
+    text-indent: 10px;
+}
+
+.thirdBlock {
+    margin-top: 50px;
+}
+
+#map {
+    margin-top: 30px;
+}
+
+.third table {
+    width: 100%;
+    margin-top: 50px;
+    color: black;
+    font-family: "Sintony", sans-serif;
+    line-height: 140%;
+    font-size: 18px;
+    text-align: right;
+
+}
+
+.day {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: left;
 }
 
 #location {
     float: left;
 }
+
 
 #hours {
     display: inline-block;
@@ -133,4 +169,15 @@ body {
 
 #contact {
     float: right;
+}
+
+#contact .thirdBlock h1 {
+    color: black;
+    font-family: "Sintony", sans-serif;
+    font-size: 18px;
+    margin-top: -7px;
+}
+
+#contact h2 {
+    text-indent: 50px;
 }
