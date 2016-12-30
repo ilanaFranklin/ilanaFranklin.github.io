@@ -7,7 +7,7 @@ body {
 
 #page {
     width: 1200px;
-    height: 800px;
+    height: 1000px;
     margin: 0px auto;
     background-color: white;
     -moz-box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.5);
@@ -17,7 +17,7 @@ body {
 
 .header {
     width: 1200px;;
-    height: 65px;
+    height: 50px;
     position: absolute;
 }
 
@@ -28,8 +28,9 @@ body {
 
 .header a {
     float: right;
+    display: block;
+    vertical-align: middle;
     font-family: 'Sintony', sans-serif;
-    height: 13px;
     font-weight: 700;
     letter-spacing: 3px;
     text-indent: 3px;
@@ -40,8 +41,7 @@ body {
 }
 
 .header a:hover{
-    color: #9d312f;
-    background-color: white;
+    color: #cf000b;
     opacity: 0.7;
 }
 
@@ -49,7 +49,7 @@ body {
     position: absolute;
     top: 0px;
     width: 1200px;
-    height: 600px;
+    height: 500px;
 }
 
 .title {
@@ -87,5 +87,50 @@ body {
     position: absolute;
     width: 200px;
     margin-left: 150px;
-    margin-top: 80px;
+    margin-top: 70px;
+}
+
+#third-container {
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 25px;
+    width: 1110px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+.third {
+    width: 30%;
+    text-align: left;
+    font-family: 'Bungee Shade', cursive;
+
+}
+
+.third h1 {
+    color: white;
+    line-height: 200%;
+    letter-spacing: 3px;
+    font-size: 25px;
+    height: 30px;
+}
+
+.third h1 span {
+    background-color: #5F9EA0;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+#location {
+    float: left;
+}
+
+#hours {
+    display: inline-block;
+}
+
+#contact {
+    float: right;
 }
